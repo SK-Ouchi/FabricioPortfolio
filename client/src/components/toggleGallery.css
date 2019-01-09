@@ -1,0 +1,48 @@
+#toggle{
+    font-family: 'cormorantgaramond-light', 'cormorant garamond', 'serif';
+    display: inline-block;
+    width: 15%;
+    height: 60px;
+    border-radius: 0 0 0 0;
+    margin: 0 0px 20px 0px;
+}
+
+@media (min-width: 360px) {
+    #toggle {
+        width: 25%;
+        height: 30px;
+        margin: 10px 0px 10px 0px;
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 768px) {
+    #toggle {
+        width: 25%;
+        height: 40px;
+        margin: 20px 0px 10px 0px;  
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 992px) {
+    #toggle {
+        width: 15%;
+        height: 60px;
+        margin: 0 0px 20px 0px;
+        font-size: 17px;
+    }
+}    
+
+@media (min-width: 1200px){
+    #toggle {
+        width: 15%;
+        height: 60px;
+        margin: 0 0px 20px 0px; 
+        font-size: 17px;
+    }
+}
+
+.center{
+    text-align: center;
+}

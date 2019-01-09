@@ -1,0 +1,119 @@
+#contactInfo{
+    text-align: center;
+    display: block;
+    font-family: 'cormorantgaramond-light', 'cormorant garamond', 'serif';
+    color: #6b6b6b;
+    margin: 0 auto 2em; 
+    font-size: 1.05rem;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+    @media (min-width: 360px) {
+        #contactInfo{
+            font-size: .70rem;
+            padding: .8rem 0 .05rem 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #contactInfo{
+            font-size: 1.05rem;
+            padding: 1rem 0 .05rem 0;
+        }
+    }
+
+    @media (min-width: 992px) {
+        #contactInfo{
+            font-size: 1.05rem;
+            padding: 1rem 0 .05rem 0;
+        }
+    }    
+
+    @media (min-width: 1200px){
+        #contactInfo{
+            font-size: 1.05rem;
+            padding: 1rem 0 .05rem 0;
+        }
+    }
+
+
+#frmInp{
+    font-family: 'cormorantgaramond-light', 'cormorant garamond', 'serif';
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0 0 0 0;
+}
+
+    @media (min-width: 360px) {
+        #frmInp{
+            font-size: .70rem;
+            width: 70%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #frmInp{
+            font-size: 1.05rem;
+            width: 70%;
+        }
+    }
+
+    @media (min-width: 992px) {
+        #frmInp{
+            font-size: 1.05rem;
+            width: 50%;
+        }
+    }    
+
+    @media (min-width: 1200px){
+        #frmInp{
+            font-size: 1.05rem;
+            width: 50%;
+        }
+    }
+
+.btn{
+   text-align: center;
+   margin: 0 auto;
+   width: 50%;
+   background-color: black;
+   color: white;
+   display : block;
+   border-radius: 0 0 0 0;
+}
+
+@media (min-width: 360px) {
+    .btn{
+        font-size: .70rem;
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn{
+        font-size: 1.05rem;
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn{
+        font-size: 1.05rem;
+        width: 50%;
+    }
+}    
+
+@media (min-width: 1200px){
+    .btn{
+        font-size: 1.05rem;
+        width: 50%;
+    }
+}
+
+
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+  }

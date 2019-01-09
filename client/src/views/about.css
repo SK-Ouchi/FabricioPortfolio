@@ -1,0 +1,126 @@
+
+
+#aboutImg {
+    padding: 15px;
+    width: 45% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+
+    @media (min-width: 360px) {
+        #aboutImg {
+            padding: 15px;
+            width: 90% !important;
+            height: auto !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #aboutImg {
+            padding: 15px;
+            width: 80% !important;
+            height: auto !important;
+        }
+    }
+
+    @media (min-width: 992px) {
+        #aboutImg {
+            padding: 15px;
+            width: 45% !important;
+            height: auto !important;
+        }
+    }    
+
+    @media (min-width: 1200px){
+        #aboutImg {
+            padding: 15px;
+            width: 45% !important;
+            height: auto !important;
+        }
+    }
+
+.paraBio{
+    text-align:justify;
+    font-family: 'cormorantgaramond-light', 'cormorant garamond', 'serif';
+    color: #6b6b6b;
+    display: block;
+    margin: 0 auto 2em;
+    padding: 1rem 0 4rem 0;
+    font-size: 1.05rem;
+    font-weight: lighter;
+    line-height: 1.5;
+    width: 70%;
+}
+
+    @media (min-width: 360px) {
+        .paraBio{
+            text-align:center;
+            font-size: .70rem;
+            padding-bottom: 1rem;
+            width: 90%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .paraBio{
+            text-align:justify;
+            font-size: 1.05rem;
+            padding-bottom: 1rem;
+            width: 90%;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .paraBio{
+            text-align:justify;
+            font-size: 1.05rem;
+            padding-bottom: 3rem;
+            width: 60%;
+        }
+    }    
+
+    @media (min-width: 1200px){
+        .paraBio{
+            text-align:justify;
+            font-size: 1.05rem;
+            padding-bottom: 3rem;
+            width: 60%;
+        }
+    }
+
+#headBio{
+    padding: 3rem 0 .05rem 0;
+    text-align: center;
+    margin: 0 auto .5em;
+    font-family: 'cormorantgaramond-light', 'cormorant garamond', 'serif';
+    color: #292929;
+    font-style: italic;
+}
+
+    @media (min-width: 360px) {
+        #headBio{
+            font-size: 1.25rem;
+            padding: 2rem 0 .05rem 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #headBio{
+            font-size: 2rem;
+            padding: 3rem 0 .05rem 0;
+        }
+    }
+
+    @media (min-width: 992px) {
+        #headBio{
+            padding: 3rem 0 .05rem 0;
+        }
+    }    
+
+    @media (min-width: 1200px){
+        #headBio{
+            padding: 3rem 0 .05rem 0;
+        }
+    }
